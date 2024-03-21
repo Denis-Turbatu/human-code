@@ -1,0 +1,25 @@
+var{
+listaPizze
+listIngredienti
+}
+
+1) chiede listino delle pizze
+2) se prende sempre la stessa
+	e ci sono gli ingredienti{
+		ordina
+	}	
+	Altrimenti{
+		sceglie una nuova
+	}
+3)Se la pizza e gli ingredienti ci sono{
+	ordina
+}Altrimenti{
+	torna punto 2
+}
+
+4)aspetta l'ordine
+5) valuta se finisce la pizza, se si{
+	mangia e finisce
+}Altrmenti{
+	mangia quello che puo e il restante la mette nel frigo di casa
+}
